@@ -1,0 +1,28 @@
+# Lines that start with '#' are comments.
+
+# Project specific
+build
+${build}*
+out
+target
+bin
+
+# project files
+.idea
+.eclipse
+.project
+.refactor
+.settings
+.svn
+.classpath
+*.iml
+*.eml
+
+# filesysytem
+.DS_Store
+*.tmp
+*.log
+
+# Excel spreadsheets
+*.xls
+*.xlsx
