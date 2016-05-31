@@ -11,8 +11,8 @@ import org.junit.runner.RunWith
 @CucumberOptions(
   features = Array("src/test/resources/features"),
   glue = Array("com/qaworks/scala"),
-  plugin = Array("pretty", "html:target/cucumber-report"),
-  tags = Array("@api")
+  plugin = Array("pretty", "html:target/cucumber-report")//,
+  //tags = Array("@api")
 )
 class RunCukesTest {
 }

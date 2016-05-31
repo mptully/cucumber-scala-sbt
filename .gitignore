@@ -26,3 +26,8 @@ bin
 # Excel spreadsheets
 *.xls
 *.xlsx
+
+# Cucumber reports
+cucumber-html/
+cucumber-junit-report.xml
+cucumber.json
